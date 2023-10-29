@@ -1,0 +1,32 @@
+/* App.css */
+.color-picker-container {
+    background-color: pink; /* Set background color to pink */
+    width: 80%; /* Set the width to 80% of the screen */
+    height: 80vh;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1); /* Add box shadow here */
+  }
+  
+  /* App.css */
+  .app-container {
+    display: flex; /* Enable flex layout for vertical centering */
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: center; /* Center child elements vertically */
+    align-items: center; /* Center child elements horizontally */
+  }
+  
+  .app-container h2 {
+    color: #000;
+  }
+  
+  body {
+    background-image: url("bg.jpg"); /* Specify the path to your image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Cover the entire body */
+    background-attachment: fixed; /* Keep the background fixed */
+    color: white; /* Set font color to white */
+    font-family: Arial, sans-serif;
+  }
